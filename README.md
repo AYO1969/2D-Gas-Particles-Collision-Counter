@@ -1,2 +1,1 @@
-# 2D-Gas-Particles-Collision-Counter
-
+This Python script implements a high-performance molecular dynamics simulation of identical hard-sphere particles (default 1000) moving within a 2D square box containing a central square bar region, featuring efficient O(n) collision detection through spatial grid partitioning, Maxwell-Boltzmann velocity initialization (modeling argon atoms at 300K), vectorized operations for performance, and optional real-time Pygame visualization that tracks and displays both total particle-particle collisions and those occurring specifically within the bar region as particles move and collide elastically with each other and the boundaries over a specified simulation time.
